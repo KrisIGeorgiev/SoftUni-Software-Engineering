@@ -12,7 +12,7 @@ public class PokeMon {
         int realN = n;
 
         while (!(n < m)) {
-            if(n == realN / 2 ) {
+            if(n == realN / 2  && y != 0) {
                 n = n / y;
                 if(m > n) {
                     break;
